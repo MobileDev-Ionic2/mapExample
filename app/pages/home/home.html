@@ -1,0 +1,15 @@
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyAfInSb6lyfSZS14OLrRNAdw04BPxFCb6c"></script>
+<script src="cordova.js"></script>
+
+<ion-header>
+   <ion-title>
+      Map
+    </ion-title>
+    <ion-buttons end>
+      <button (click)="addMarker()"><ion-icon name="add"></ion-icon>Add Marker</button>
+    </ion-buttons>  
+</ion-header>
+
+<ion-content padding>
+ <div #map id="map"></div>
+</ion-content>
